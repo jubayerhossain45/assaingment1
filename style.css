@@ -28,7 +28,7 @@
 .navlist{
     display: flex;
     list-style-type: none;
-    gap:15px;
+    gap: 20px; 
 }
 .navlist a{
     text-decoration: none;
@@ -48,8 +48,11 @@
    cursor: pointer;
 
 }
+ 
+
+
 .btn:hover{
-    background-color: aliceblue;
+    
     color: black;
 }
 
@@ -69,11 +72,13 @@
     margin-top: 100px;
     height: 20px;
     width: 180px;
+    text-align: center;
+    
 }
 .herobtn1  button{
     color: rgb(46, 169, 65);
     font-size: 14px;
-   padding:3px 3px 3px 3px;
+   padding:10px 5px 5px 3px;
    border-radius:5px;
    border:none;
    font-weight: 500px;
@@ -93,6 +98,18 @@
     margin-top: 25px;
     gap: 10px;
 } 
+.kkll img{
+    height: 13px;
+    width: 15px;
+    background:none;
+
+}
+.kkll :hover{
+    background-color: azure;
+}
+.llkk{
+    background: none;
+}
 .llkk  button:hover{
     background-color: black;
     color:rgb(156, 149, 149);
@@ -113,9 +130,12 @@
 }
 .class-contain{
     padding: 24px;
-    border-radius: 10px;
-    box-shadow:0 0 10px black;
+    border-radius: 20px;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.674);
 
+}
+.card :hover{
+    background-color: bisque;
 }
 .frame{
     display: flex;
